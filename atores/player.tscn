@@ -1,39 +1,39 @@
 [gd_scene load_steps=14 format=3 uid="uid://ct51tm2howq7k"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_rd8er"]
-[ext_resource type="Texture2D" uid="uid://c1ep8aq1wy3fm" path="res://Sprite Pack 2/2 - Mr. Mochi/Idle (32 x 32).png" id="2_bg18a"]
-[ext_resource type="Texture2D" uid="uid://payxetse37ki" path="res://Sprite Pack 2/2 - Mr. Mochi/Jumping (32 x 32).png" id="3_emeho"]
-[ext_resource type="Texture2D" uid="uid://ch6c62dkmeq0f" path="res://Sprite Pack 2/2 - Mr. Mochi/Running (32 x 32).png" id="3_ogba8"]
+[ext_resource type="Texture2D" uid="uid://c1ep8aq1wy3fm" path="res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Idle (32 x 32).png" id="2_dm75p"]
+[ext_resource type="Texture2D" uid="uid://payxetse37ki" path="res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Jumping (32 x 32).png" id="3_4050n"]
+[ext_resource type="Texture2D" uid="uid://ch6c62dkmeq0f" path="res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Running (32 x 32).png" id="4_drqwt"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4ti5j"]
 size = Vector2(18, 18)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0m32o"]
-atlas = ExtResource("2_bg18a")
+atlas = ExtResource("2_dm75p")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a2one"]
-atlas = ExtResource("2_bg18a")
+atlas = ExtResource("2_dm75p")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h83hu"]
-atlas = ExtResource("3_emeho")
+atlas = ExtResource("3_4050n")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kmtlj"]
-atlas = ExtResource("3_ogba8")
+atlas = ExtResource("4_drqwt")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m7b7v"]
-atlas = ExtResource("3_ogba8")
+atlas = ExtResource("4_drqwt")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a8l0p"]
-atlas = ExtResource("3_ogba8")
+atlas = ExtResource("4_drqwt")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ig66r"]
-atlas = ExtResource("3_ogba8")
+atlas = ExtResource("4_drqwt")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_70f8v"]
